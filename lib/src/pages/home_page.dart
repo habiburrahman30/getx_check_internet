@@ -16,19 +16,19 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            GetBuilder<GetXNetworkManager>(
-              init: GetXNetworkManager(),
-              initState: (_) {},
-              builder: (_) {
-                return Text(
-                  _networkManager.connectionType == 0
-                      ? 'No Internet'
-                      : (_networkManager.connectionType == 1)
-                          ? 'You  are connected to Wifi'
-                          : 'ou  are connected to Mobile Internet',
-                );
-              },
-            ),
+            // GetBuilder<GetXNetworkManager>(
+            //   init: GetXNetworkManager(),
+            //   initState: (_) {},
+            //   builder: (_) {
+            //     return Text(
+            //       _networkManager.connectionType == 0
+            //           ? 'No Internet'
+            //           : (_networkManager.connectionType == 1)
+            //               ? 'You  are connected to Wifi'
+            //               : 'ou  are connected to Mobile Internet',
+            //     );
+            //   },
+            // ),
           ],
         ),
       ),
